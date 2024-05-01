@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.question {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.show {
+    display: block;
+}
